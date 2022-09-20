@@ -1,0 +1,439 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.data{
+    padding: 0.5em;
+    width: 90%;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-site-header{
+   
+    width: 25%;
+    margin: 0 auto;
+}
+
+.container-bg{
+ 
+    background-image: url(Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/*.container-header{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 1em;
+}*/
+
+.container-main{
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.title{
+ color: #1d263b;
+ font-size: 2rem;
+ margin-bottom: 0;
+ margin-top: 0em;
+
+ 
+}
+
+nav{
+  
+    margin-bottom: 0;
+}
+
+
+.subtitle{
+ color: #1d263b;
+ font-size: 1rem;
+ margin-top: 0.1em;
+ font-weight: 300;
+ font-style: italic;
+ margin-bottom: 2em;
+}
+
+.btn{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25rem;
+
+}
+
+.btn-sell{
+    margin-bottom: 0.5em;
+}
+
+
+.btn-sell,.btn-contact{
+    border: 1px solid #1d263b;
+    color: #fff;
+    background: #1d263b;
+    text-transform: uppercase;
+    padding: 0.25em 1.5em;
+    border-radius: 4em;
+}
+
+.btn-sell:hover,
+.btn-sell:focus,
+.btn-contact:hover,
+.btn-contact:focus{
+    background: burlywood;
+    cursor: pointer;
+}
+
+/*.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
+
+}*/
+
+.box-1{
+    text-align: center;
+}
+
+.article-post{
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: #1d263b dashed 1px;
+}
+
+.about-me{
+    background: #f3f3f4;
+    line-height: 1.6;
+    padding: 1.75em;
+    margin-bottom: 1em;
+
+}
+
+
+.about-me h1,
+.listing-post h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-size:2em;
+}
+
+.f-post{
+    background: #f3f3f4;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.small-txt{
+    margin-left: 2em;
+}
+
+.footer-logo{
+    width: 30%;
+}
+
+footer{
+    background: #1d263b;
+    color: white;
+    padding: 0.5em;
+}
+
+footer{
+    margin-bottom: 0.5em;
+}
+
+footer h3,h4{
+    font-weight: 300;
+}
+
+.icons-footer{
+    display: inline-block;
+    width: 10%;
+    margin-top: 0;
+    background-color: #f3f3f4;
+    border-radius: 50px;
+    margin-bottom: 1em;
+}
+
+.studio{
+    background: black;
+    padding: 1em;
+}
+
+.studio h4{
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.studio strong{
+    letter-spacing: 1px;
+    text-decoration: underline;
+    line-height: 1.6;
+}
+
+.form-contact{
+    margin-top: 2em;
+}
+
+
+
+
+.ar-img{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+
+.box-1 h3{
+    text-transform: uppercase;
+}
+
+.box h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box p{
+    margin-bottom: 2em;
+}
+
+
+.cta{
+    text-transform: uppercase;
+    border-bottom: 2px solid #1d263b;
+}
+
+.view-btn{
+    border: 2px solid #1d263b;
+    padding:0.75em 0.5em;
+    font: 1.125rem;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.view-btn:hover,
+.view-btn:focus{
+    color: #fff;
+    background: #1d263b;
+    cursor: pointer;
+}
+
+
+nav ul{
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+   
+     
+}
+
+nav li{
+    margin-top: 1em;
+      
+}
+
+nav a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    background:#1d263b; ;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 0em;
+   
+}
+
+nav a:hover,
+nav a:focus{
+    background: burlywood;
+    cursor: pointer;
+}
+
+.current-page{
+    border-bottom: 4px solid #fff;
+}
+
+.form h1 , .form h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form p{
+    line-height: 1.6;
+    font-size: 1.125rem;
+}
+
+form h4{
+    
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 0.15em;
+    text-transform: capitalize;
+    
+}
+
+.form-btn{
+    font-size: 1.25rem;
+    padding: 0,25em 1em;
+    text-align: center;
+    font-weight: 400;
+    color: #f3f3f4;
+    background-color: #1d263b;
+    margin-top: 1em;
+    border-radius: 10px;
+    margin-bottom: 4em;
+}
+
+.form-btn:hover, 
+.form-btn:focus{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+form input{
+    border: 1px solid #1d263b;
+    font-size: 1rem;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    width: 90%;
+    text-transform: capitalize;
+}
+
+.names{
+    display: flex;
+    width: 90%;
+}
+
+
+
+
+
+
+@media (min-width:1010px){
+    
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1em;
+    }
+
+    nav a{
+        font-size: 1.125rem;
+        margin-right: 2em;
+        padding: 0.5em 1em;
+        letter-spacing: 1px;
+    }
+
+    .title{
+        font-size: 3.5rem;
+    }
+
+    .subtitle{
+        font-size: 1.5rem;
+    }
+     
+    .btn{
+        font-size: 1.5rem;
+    }
+
+    .logo-site-header{
+        width: 25%;
+    }
+
+    .about-me{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+    .user-image{
+        width: 40%;
+    }
+
+    .about-content{
+        width: 40%;
+
+    }
+
+    .about-content p{
+        line-height: 1.7;
+        font-size: 1.25rem;
+    }
+
+    .box-1{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 4em;
+        line-height: 1.5;
+    }
+
+    .flex-box{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .post-1{
+        width: 30%;
+    }
+
+    .post-2{
+        width: 30%;
+    }
+
+    .post-3{
+        width: 30%;
+    }
+
+   .footer-logo{
+    width: 10%;
+   }
+
+   .icons-footer{
+    width: 3%;
+    padding: 1em;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+    
